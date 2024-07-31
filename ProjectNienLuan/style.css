@@ -10,9 +10,24 @@ ul {
 a {
   text-decoration: none;
 }
+.container-header {
+  position:fixed;
+}
 .container {
-  max-width: 1190px;
+  max-width: 100%;
   margin: auto;
+}
+
+.header.fixed {
+  position:fixed;
+  width:100%;
+  z-index: 1000;
+}
+.nav a {
+  font-size: 1.6rem;
+  color: #5f5b53;
+  padding: 8px 21px;
+  position: relative;
 }
 /*------nav------*/
 nav {
@@ -55,6 +70,9 @@ nav ul li:nth-child(7) button {
   background-color: transparent;
   color: currentColor;
   border: 1px solid #ddd;
+}
+nav li:last-child i{
+  margin-right: 20px;
 }
 
 /*product home page 1*/
