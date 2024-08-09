@@ -225,7 +225,7 @@ header {
   justify-content: space-evenly;
 }
 .slider-product-two-content-item:hover > img {
-  transform: scale;
+  transform: scale(1.1);
 }
 .slider-product-two-content-item {
   width: 19%;
