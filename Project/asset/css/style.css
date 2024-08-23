@@ -206,6 +206,7 @@ header {
   padding: 4px 4px;
   margin-bottom: 5px;
 }
+
 /*product home page 2*/
 .banner-2 img {
   padding-top: 0px;
@@ -287,6 +288,7 @@ header {
 .banner-2 {
   width: 100%;
 }
+
 /* footer */
 .container-footer {
   width: var(--header-width--);
@@ -299,11 +301,9 @@ footer {
   background-color: #d9d9d9;
 }
 footer .row-grid {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 25%);
 }
-
 .footer-item p:first-child {
   font-weight: bolder;
   margin-bottom: 12px;

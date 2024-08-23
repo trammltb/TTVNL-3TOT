@@ -59,7 +59,6 @@ header {
   text-align: center;
 }
 .banner img {
-  /* padding-top: 70px; */
   width: 100%;
   object-fit: contain;
 }
@@ -116,7 +115,6 @@ header {
   margin-top: 10px;
   border-radius: 12px;
 }
-
 .company-product a img {
   display: inline-block;
   border-radius: 40px;
@@ -128,6 +126,7 @@ header {
   border: 1px solid #288ad6;
   transition: 0.3s;
 }
+
 /* product-company-laptop*/
 .container-product-laptop {
   width: var(--header-width--);
@@ -178,7 +177,6 @@ header {
   line-height: 30px;
   border-radius: 40px;
 }
-
 .heading-clamp {
   display: -webkit-inline-box;
   -webkit-line-clamp: 2;
@@ -187,7 +185,6 @@ header {
   overflow: hidden;
   max-width: 100%;
 }
-
 .heading-clamp a {
   font-weight: normal;
   display: block;
@@ -212,7 +209,6 @@ header {
 .slider-product-one-content-item-text li:last-child {
   color: #fb6e2e;
 }
-
 .slider-product-laptop-content-item-text li:nth-child(6) {
   color: #e83a45;
   font-weight: bold;
@@ -228,6 +224,7 @@ header {
   padding: 4px 4px;
   margin-bottom: 5px;
 }
+
 /**************************/
 .slide-product-laptop-content-container {
   position: relative;
@@ -266,11 +263,9 @@ footer {
   background-color: #d9d9d9;
 }
 footer .row-grid {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 25%);
 }
-
 .footer-item p:first-child {
   font-weight: bolder;
   margin-bottom: 12px;
