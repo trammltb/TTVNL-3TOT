@@ -54,14 +54,6 @@ header {
 .header-nav nav ul li a:hover {
   border-bottom-color: black;
 }
-.banner {
-  text-align: center;
-}
-.banner img {
-  padding-top: 70px;
-  width: 100%;
-  object-fit: contain;
-}
 .header-search {
   position: relative;
 }
@@ -104,6 +96,14 @@ header {
   align-items: center;
   text-align: center;
   font-size: small;
+}
+.banner {
+  text-align: center;
+}
+.banner img {
+  padding-top: 70px;
+  width: 100%;
+  object-fit: contain;
 }
 
 /*product home page 1*/
