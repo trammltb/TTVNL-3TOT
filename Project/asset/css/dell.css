@@ -112,18 +112,20 @@ header {
   display: flex;
   justify-content: space-evenly;
   padding: 15px 0;
-  margin-top: 10px;
-  border-radius: 12px;
+  margin-top: 5px;
+}
+.company-product a.dell img {
+  border: 2px solid #288ad6;
 }
 .company-product a img {
   display: inline-block;
   border-radius: 40px;
-  border: 1px solid white;
+  border: 2px solid white;
   transition: 0.3s;
   width: 80%;
 }
 .company-product a img:hover {
-  border: 1px solid #288ad6;
+  border: 2px solid #288ad6;
   transition: 0.3s;
 }
 
