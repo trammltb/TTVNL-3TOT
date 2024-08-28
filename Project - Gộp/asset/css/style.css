@@ -38,8 +38,7 @@ a {
 }
 header {
   background-color: #d9d9d9;
-  position: sticky;
-  top: 0;
+  position: fixed;
   width: 100%;
   z-index: 1000;
 }
@@ -54,13 +53,6 @@ header {
 }
 .header-nav nav ul li a:hover {
   border-bottom-color: black;
-}
-.banner {
-  text-align: center;
-}
-.banner img {
-  width: 100%;
-  object-fit: contain;
 }
 .header-search {
   position: relative;
@@ -106,73 +98,55 @@ header {
   font-size: small;
 }
 
-/* nav next */
-.company-product {
-  background-color: #e0e0e0;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 15px 0;
-  margin-top: 5px;
+/* banner */
+.banner {
+  text-align: center;
 }
-.company-product a.acer img {
-  border: 2px solid #288ad6;
-}
-.company-product a img {
-  display: inline-block;
-  border-radius: 40px;
-  border: 2px solid white;
-  transition: 0.3s;
-  width: 80%;
-}
-.company-product a img:hover {
-  border: 2px solid #288ad6;
-  transition: 0.3s;
+.banner img {
+  padding-top: 70px;
+  width: 100%;
+  object-fit: contain;
 }
 
-/* product-company-laptop*/
-.container-product-laptop {
+/*product home page 1*/
+.container-product-one {
   width: var(--header-width--);
   padding-top: 0px;
 }
-.slider-product-laptop-content {
+.slider-product-one-content {
   background-color: rgb(205, 199, 199);
   padding: 12px;
   margin-top: -5px;
 }
-.slider-product-laptop-content-items {
+.slider-product-one-content-items {
   display: flex;
   justify-content: space-evenly;
 }
-.slider-product-laptop-content-items-two {
-  padding: 5px 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-.slider-product-laptop-content-items-third {
-  display: flex;
-  justify-content: space-evenly;
-}
-.slider-product-laptop-content-item:hover > img {
+.slider-product-one-content-item:hover > img {
   transform: scale(1.1);
 }
-.slider-product-laptop-content-item {
+.slider-product-one-content-item {
   width: 19%;
   background-color: #fff;
   padding: 50px 12px 50px;
   border-radius: 5px;
   cursor: pointer;
 }
-.slider-product-laptop-content-item > img {
+.slider-product-one-content-item > img {
   width: 100%;
 }
-.slider-product-laptop-content-item-text {
+.slider-product-one-content-title h2 {
+  font-size: italic;
+  padding: 12px 0;
+}
+.slider-product-one-content-item-text {
   padding-top: 20px;
 }
-.slider-product-laptop-content-item-text li {
+.slider-product-one-content-item-text li {
   margin-bottom: 6px;
   list-style: none;
 }
-.slider-product-laptop-content-item-text li:first-child {
+.slider-product-one-content-item-text li:first-child {
   height: 30px;
   max-width: fit-content;
   background-color: rgb(13, 58, 223);
@@ -184,6 +158,7 @@ header {
   line-height: 30px;
   border-radius: 40px;
 }
+
 .heading-clamp {
   display: -webkit-inline-box;
   -webkit-line-clamp: 2;
@@ -192,6 +167,7 @@ header {
   overflow: hidden;
   max-width: 100%;
 }
+
 .heading-clamp a {
   font-weight: normal;
   display: block;
@@ -199,16 +175,16 @@ header {
 .heading-clamp:hover {
   color: #2f80ed;
 }
-.slider-product-laptop-content-item-text li:first-child p {
+.slider-product-one-content-item-text li:first-child p {
   color: #fff;
   font-size: 12px;
 }
-.slider-product-laptop-content-item-text li:first-child img {
+.slider-product-one-content-item-text li:first-child img {
   width: 30px;
   float: left;
   margin-right: 6px;
 }
-.slider-product-laptop-content-item-text li:nth-child(5) a {
+.slider-product-one-content-item-text li:nth-child(5) a {
   text-decoration: line-through;
   color: #333;
   margin-left: -1px;
@@ -216,7 +192,8 @@ header {
 .slider-product-one-content-item-text li:last-child {
   color: #fb6e2e;
 }
-.slider-product-laptop-content-item-text li:nth-child(6) {
+
+.slider-product-one-content-item-text li:nth-child(6) {
   color: #e83a45;
   font-weight: bold;
 }
@@ -232,24 +209,88 @@ header {
   margin-bottom: 5px;
 }
 
-/**************************/
-/* view more */
-.view-more a {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  line-height: 40px;
-  color: #333;
-  text-align: center;
-  border-radius: 4px;
-  margin: 10px auto;
-  width: 340px;
+/*product home page 2*/
+.banner-2 img {
+  padding-top: 0px;
+  width: 100%;
+  object-fit: contain;
+}
+.container-product-two {
+  width: var(--header-width--);
+}
+.slider-product-two-content {
+  background-color: rgb(205, 199, 199);
+  padding: 0 12px 12px 12px;
+  margin-top: -7px;
+}
+.slider-product-two-content-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.slider-product-two-content-item:hover > img {
+  transform: scale(1.1);
+}
+.slider-product-two-content-item {
+  width: 19%;
   background-color: #fff;
-  border: 1px solid #e0e0e0;
+  padding: 50px 12px 50px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.view-more a:hover {
-  background-color: #d9d9d9;
+.slider-product-two-content-item > img {
+  width: 100%;
 }
+.slider-product-two-content-title h2 {
+  font-size: italic;
+  padding: 12px 0;
+}
+.slider-product-two-content-item-text {
+  padding-top: 20px;
+}
+.slider-product-two-content-item-text li {
+  margin-bottom: 6px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.slider-product-two-content-item-text li:first-child {
+  height: 30px;
+  width: 70%;
+  background: linear-gradient(to right, #faab08, #d42611);
+  display: inline-block;
+  margin-bottom: 20px;
+  align-items: center;
+  line-height: 30px;
+  border-radius: 40px;
+}
+.slider-product-two-content-item-text li:first-child p {
+  color: #fff;
+  font-size: 12px;
+}
+.slider-product-two-content-item-text li:first-child img {
+  width: 30px;
+  float: left;
+  margin-right: 6px;
+}
+.slider-product-two-content-item-text li:nth-child(5) a {
+  text-decoration: line-through;
+  color: #333;
+  margin-left: -1px;
+}
+.slider-product-two-content-item-text li:last-child {
+  color: #fb6e2e;
+}
+.slider-product-two-content-item-text li:nth-child(6) {
+  color: #e83a45;
+  font-weight: bold;
+}
+.slider-product-two-content-item-text li:nth-child(2):hover {
+  color: #2f80ed;
+}
+.banner-1,
+.banner-2 {
+  width: 100%;
+}
+
 /* footer */
 .container-footer {
   width: var(--header-width--);
