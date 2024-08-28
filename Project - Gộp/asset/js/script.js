@@ -23,3 +23,27 @@ btnSend.addEventListener("click", (e) => {
   alert("Gửi yêu cầu thành công");
   window.location.href = "3TOT.html";
 });
+// count product
+function increaseQuantity() {
+  const quantityInput = document.getElementById("quantity");
+  let currentQuantity = parseInt(quantityInput.value);
+  currentQuantity++;
+  quantityInput.value = currentQuantity;
+  updatePrice();
+}
+
+function decreaseQuantity() {
+  const quantityInput = document.getElementById("quantity");
+  let currentQuantity = parseInt(quantityInput.value);
+  if (currentQuantity > 1) {
+    currentQuantity--;
+    quantityInput.value = currentQuantity;
+    updatePrice();
+  }
+}
+//AddCart
+function addToCart() {
+  if (confirm("Bạn có chắc chắn muốn thêm sản phẩm vào giỏ hàng?")) {
+    alert("Sản phẩm đã được thêm vào giỏ hàng!");
+  }
+}
