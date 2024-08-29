@@ -218,7 +218,16 @@ header {
 .product-info p {
   padding-bottom: 10px;
 }
-
+.btn-add-to-cart {
+  background-color: #ef6a6a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-add-to-cart:hover {
+  background-color: #ea7979;
+}
 /* footer */
 .container-footer {
   width: var(--header-width--);
