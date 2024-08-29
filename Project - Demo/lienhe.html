@@ -13,12 +13,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="asset/css/product-laptop-hp.css" />
+    <link rel="stylesheet" href="asset/css/lienhe.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <title>LAPTOP</title>
+    <title>LAPTOP 3TOT - Liên Hệ</title>
   </head>
   <body>
     <header>
@@ -88,47 +88,27 @@
         ><img src="asset/images/logo-macbook.png" alt=""
       /></a>
     </div>
-    <main>
-      <div class="centered-container">
-        <div class="container">
-          <div class="images-product">
-            <div class="image-sliders">
-              <div class="image-slider">
-                <img src="asset/images/HP/hp-one.jpg" alt="Hình ảnh 1" />
-              </div>
-              <div class="image-slider">
-                <img src="asset/images/HP/hp-two.jpg" alt="Hình ảnh 2" />
-              </div>
-              <div class="image-slider">
-                <img src="asset/images/HP/hp-third.jpg" alt="Hình ảnh 3" />
-              </div>
-            </div>
-            <div class="slider-arrow">
-              <button class="prev">&#10094;</button>
-              <button class="next">&#10095;</button>
-            </div>
-          </div>
-          <script src="asset/js/slider.js"></script>
 
-          <div class="product-info">
-            <p><h2>HP Envy x360 2-in-1 14-es1013dx 2024</h2></p>
-            <p><b>Màn hình:</b> 15.6", Full HD</p>
-            <p><b>CPU:</b> i5, 1240P, 1.7GHz</p>
-            <p><b>Card:</b> Intel Iris Xe</p>
-            <p><b>Pin:</b> 3-cell, 41Wh</p>
-            <p><b>Khối lượng:</b> 1.72 kg</p>
-            <p><b>Giá tiền:</b> <span id="price">20.000.000</span> VND</p>
-            <div class="quantity-control">
-              <p><b><pre>Số lượng:  </pre></b></p>
-              <button onclick="decreaseQuantity()">-</button>
-              <input type="text" id="quantity" value="1" min="1" />
-              <button onclick="increaseQuantity()">+</button>
-            </div>
-            <button class="btn-add-to-cart" onclick="addToCart()"> <i class="ri-shopping-cart-line" number="0"></i>Thêm Vào Giỏ Hàng</button> 
-          </div>
-        </div>
+    <!-- contact -->
+    <div class="contact">
+      <div class="contact__container">
+        <h1>Liên Hệ</h1>
+        <form>
+          <h4 style="color: #333">Họ tên*</h4>
+          <input type="text" class="input-username" />
+          <h4 style="color: #333">Địa chỉ*</h4>
+          <input type="text" class="input-address" />
+          <h4 style="color: #333">Số điện thoại*</h4>
+          <input type="text" class="input-phone-username" />
+          <h4 style="color: #333">Email*</h4>
+          <input type="text" class="input-email-username" />
+          <h4 style="color: #333">Nội Dung*</h4>
+          <input type="text" class="input-text-username" />
+          <button type="submit" class="send-now">Gửi</button>
+        </form>
       </div>
-    </main>
+    </div>
+    <script src="./asset/js/script.js"></script>
 
     <!-- footer -->
     <footer>
@@ -156,6 +136,5 @@
         </div>
       </div>
     </footer>
-    <script src="asset/js/script.js"></script>
   </body>
 </html>

@@ -99,19 +99,42 @@ header {
 }
 
 /* banner */
-.banner {
-  text-align: center;
-}
 .banner img {
+  width: 100vw;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.image-sliders {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.image-slider {
   padding-top: 70px;
+  position: absolute;
+}
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
   width: 100%;
-  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.slider-arrow button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 25px;
+  padding: 8px;
+  background-color: rgba(230, 230, 230, 0.57);
 }
 
 /*product home page 1*/
 .container-product-one {
   width: var(--header-width--);
-  padding-top: 0px;
+  padding-top: 470px;
 }
 .slider-product-one-content {
   background-color: rgb(205, 199, 199);
