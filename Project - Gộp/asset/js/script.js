@@ -23,6 +23,7 @@ btnSend.addEventListener("click", (e) => {
   alert("Gửi yêu cầu thành công");
   window.location.href = "3TOT.html";
 });
+
 // count product
 function increaseQuantity() {
   const quantityInput = document.getElementById("quantity");
