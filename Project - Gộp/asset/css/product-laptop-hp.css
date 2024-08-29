@@ -151,7 +151,7 @@ header {
   height: 200px;
   padding-left: 100px;
   position: absolute;
-  transition: all 0.3s ease;;
+  transition: all 0.3s ease;
 }
 .image-slider img {
   width: 300px;
@@ -205,10 +205,12 @@ header {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+  margin-top: 5px;
 }
 .btn-add-to-cart:hover {
   background-color: #ea7979;
 }
+
 /* footer */
 .container-footer {
   width: var(--header-width--);
